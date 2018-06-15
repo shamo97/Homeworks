@@ -1,0 +1,338 @@
+/* 
+ * Colors
+ * 
+ * Dark gray		#34383c
+ * medium gray		#81858a
+ * purple			#620e6e
+ * blue				#4385c1
+ * light blue		#9ac9f4
+ * darker blue		#043867
+ * darkest blue	#002342
+ * blue tint		#e7ecf0
+ * green				#7aa120
+ */
+
+ *{
+	box-sizing: border-box;
+	
+}
+
+body {
+	background: white;
+	color: #81858a;
+	font: 1em/1.6 Helvetica, Verdana, sans-serif;
+	
+}
+
+header {
+	background: #4385c1;
+	color: white;
+	font-size: .9rem;
+}
+
+
+footer {
+	background: #34383c;
+	color: white;
+	padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+	font-weight: normal;
+}
+h1 {}
+h2 {
+	font: 2.25rem/1.2 Helvetica, Verdana, sans-serif;
+}
+h3 {}
+h4 {
+	font-size: 1.2rem;
+}
+h5 {}
+h6 {}
+p {	font-size: .925rem;
+}
+
+
+img {
+	max-width: 100%;
+	
+}
+
+
+/* Links */
+a:link, a:visited {
+	color: #4385c1;
+	text-decoration: none;
+}
+a:hover, a:focus, a:active {
+	color: #043867;
+}
+
+
+
+/* Header */
+.branding {
+	color: #9ac9f4;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+
+
+
+
+
+/* navigation */
+
+#quick-nav {
+	
+}
+
+#quick-nav ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+#quick-nav li {
+	border-right: 1px solid #9ac9f4;
+	line-height: 5px;
+	float:left;
+	margin-top: 60px;
+	margin-left: 5px;
+	
+  
+	
+}
+#utilities-nav{
+float: right;
+margin-top: 70px;
+margin-right: 20px;
+	
+
+}
+#utilities-nav a:hover{
+	color:blue;
+	
+}
+
+#utilities-nav a{
+	color:white;
+	border:1px solid white;
+	margin-left:20px;
+	padding: 5px 20px;
+	font-size: 15px;
+}
+#quick-nav li  a {
+	display: block;
+	text-decoration: none;
+	font-size:20px;
+	padding: 20px;
+
+}
+#quick-nav li:last-of-type {
+	border: none;
+}
+
+#quick-nav a:link, #quick-nav a:visited {
+	color: white;	
+}
+#quick-nav a:hover, #quick-nav a:focus, #quick-nav a:active {
+	color: #9ac9f4;
+}
+
+
+
+#main-nav {
+	background-color: #043867;
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+#main-nav ul li {
+	display: inline-block;
+	margin-left: 80px;
+	padding: 20px;
+	border-right: 1px solid #9ac9f4;
+	
+
+	
+}
+#main-nav ul li:first-child {
+	border-left: 1px solid #9ac9f4;
+
+
+}
+
+#main-nav ul li a{
+	color:white;
+	text-align: center;
+}
+#main-nav li:hover {
+	background-color: #002342;
+}
+#quick-nav ul {
+	list-style-type: none;
+	
+}
+
+
+#full-nav a:link, #full-nav a:visited {
+	color: #81858a;	
+}
+#full-nav h3 a:link, #full-nav h3 a:visited {
+	color: white;
+}
+#full-nav a:hover, #full-nav a:focus, #full-nav a:active {
+	color: white;
+}
+.hero{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.hero h3 {
+	position: absolute;
+	font-size: 50px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-top : 1px solid white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.hero p {
+	position: absolute;
+	font-size: 30px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-bottom : 1px solid white;
+	padding: 20px ;
+	letter-spacing: 3px;
+
+}
+.slogan{
+	padding:20px;
+	background-color:#7aa120;
+	color:white;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+
+
+.slogan h3{
+	float: left;
+	font-size:50px;
+	margin-top: 10px;
+}
+.slogan p{
+	
+	font-size: 20px;
+	margin-left: 70px;
+	padding: 10px;
+	
+}
+.flex {
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	display: flex;
+	flex-flow:wrap ;
+	justify-content: space-between;
+	
+	
+}
+
+.flex> div{
+	padding:60px;
+	width: 33%;
+	background-color:#9ac9f4;
+}
+.flex p {
+	margin-left: -40px;
+}
+
+.flex div:nth-child(4){
+	
+	
+	margin-top:15px;
+}
+.flex div:nth-child(5) {
+	margin-top:15px;
+	
+	background-color:lightseagreen;
+
+}
+.flex div:nth-child(6) {
+	margin-top: 15px;
+	background-color: white;
+
+}
+.flex h4 {
+	color:black;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+.flex>div a , h2, h4 {
+	color:white;
+	margin-top: 2px;
+	margin-left: -20px;
+	
+} 
+.calendar {
+	display: inline-block;
+	width: 60x;
+	padding: 5px;
+	color: green;
+	text-align: center;
+	border: 1px solid gray;
+}
+.par1 .text {
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	margin-left: 100px;
+	margin-top: -100px;
+	
+}
+
+.decimal {
+	font-size: 3em;
+}
+
+.circ .button{
+	display: inline-block;
+	border: 1px solid blue;
+	text-align: center;
+	border-radius: 5%;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:20px;
+	width:300px;
+	margin-left:20px;
+	
+}
+
+.circ + a{
+	margin-left:100px;
+
+}
+.m {
+	display: flex;
+}
+
+
+.m>div {
+	margin-left:50px;
+	padding: 10px;
+}
+.last {
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
