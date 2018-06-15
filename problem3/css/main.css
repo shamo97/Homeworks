@@ -1,0 +1,64 @@
+#circle1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: red;
+    margin: 20px;
+}
+
+#circle2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: blue;
+    margin: 20px;
+
+}
+
+#circle3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: pink;
+    margin: 20px;
+
+}
+
+#circle4 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: gold;
+    margin: 20px;
+
+}
+
+#rectangular {
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 100px;
+
+}
+
+#circle1:hover~#rectangular {
+    background-color: red;
+}
+
+
+#circle2:hover~#rectangular {
+    background-color: blue;
+
+}
+
+#circle3:hover~#rectangular {
+    background-color: pink;
+}
+
+#circle4:hover~#rectangular {
+    background-color: gold;
+}
