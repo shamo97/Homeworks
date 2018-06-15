@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        .head {
+            background-color: #3B5998;
+            width: 100%;
+            padding: 2px;
+            position: fixed;
+
+        }
+
+
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: white;
+            color: #3B5998;
+            padding: 5px;
+            font-size: 30px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 70px;
+            margin-top: 10px;
+        }
+
+        .head input[type=text] {
+            display: inline-block;
+            margin-left: 10px;
+            width: 400px;
+            font-size: 17px;
+        }
+
+
+
+        .icons {
+            display: inline;
+            margin-left: 500px;
+
+        }
+
+        .icons>a {
+            margin-left: 20px;
+            color: white;
+
+        }
+
+        .icons>a,
+        h:hover {
+            opacity: 0.7;
+
+        }
+
+
+
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+
+
+        .column.side {
+            width: 25%;
+            background: gainsboro;
+        }
+
+
+
+        .column.middle {
+            width: 50%;
+           
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        ul li {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 20px;
+            color: black
+        }
+
+
+        .column.middle input[type=text] {
+            display: inline-block;
+            font-weight: lighter;
+            width: 550px;
+            height: 70px;
+            margin-left: 30px;
+        }
+
+        .avatar p {
+            margin-left: 50px;
+            margin-top: -20px;
+            font-size: 15px;
+
+
+        }
+
+        .first a {
+            color: black;
+        }
+
+        .first li {
+            margin: 10px;
+            padding: 10px;
+            list-style: none;
+        }
+
+        .material-icons {
+
+            color: rgb(52, 52, 212);
+        }
+
+        .fa-file {
+            color: rgb(105, 105, 219);
+        }
+
+        .glyphicon-envelope {
+            font-size: 20px;
+            color: rgb(52, 52, 212);
+
+        }
+
+        .lasha {
+
+            color: rgb(71, 71, 199);
+
+        }
+
+        .lasha h4 {}
+
+        .lasha h6 {
+            margin-left: 190px;
+            margin-top: -33px;
+
+        }
+
+        .lasha p {
+            margin-left: 30px;
+            margin-top: -10px;
+            font-size: 10px;
+            color: black;
+        }
+
+        .c1 {
+            position: relative;
+            width: 350px;
+            height: 50px;
+            background: rgb(187, 193, 212);
+            margin-top: 5px;
+        }
+
+        .c2 {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 250px;
+            height: 25px;
+            border-radius: 10px;
+            border: 3px solid black;
+        }
+
+        div.relative {
+            position: relative;
+            width: 350px;
+            height: 50px;
+            background-color: rgb(168, 168, 192);
+            margin-top: 10px;
+        }
+
+        div.absolute {
+            position: absolute;
+            top: 10px;
+            right: 10%;
+            width: 250px;
+            height: 20px;
+            background: white;
+            border-radius: 20px;
+        }
+        .mes {
+            margin-top: 50px;
+            position: fixed;
+           
+        }
+
+        .mes li  {
+            padding: 5px;
+            margin: 5px;
+            list-style: none;
+            font-size: 15px;
+            color: black;
+         
+     
+        }
+        .mes p{
+            margin-left: 80px;
+        }
+
+        .box {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            display: none;
+
+        }
+
+        
+
+        .circle {
+            background: green;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            float: left;
+            margin-left: 80px;
+            
+        }
+        .m a {
+            display: inline-block;
+            margin-left: 10px;
+            list-style: none;
+            padding: 10px;
+        }
+        .mid {
+            margin-top: 50px;
+        }
+
+.him{
+  background: #eee;
+  float: left;
+}
+
+.me{
+  float: right;
+  background: #0084ff;
+  color: #fff;
+}
+
+.him + .me{
+  border-bottom-right-radius: 5px;
+}
+
+.me + .me{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+  border-bottom-right-radius: 30px;
+}
+.chat {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.chat  li{
+  display:inline-block;
+  clear: both;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <a href="#" class="fa fa-facebook"></a>
+            <input type="text" placeholder="Search..">
+            <div class="icons">
+                <h>
+                    <a href="bn">
+                        <img src="img_avatar6.png" style="width:30px">Mariami</h>
+                </a>
+                <a href="a">
+                    <i class="fa fa-home fa-lg"></i>
+                </a>
+                <a href="b">
+                    <i class="fa fa-address-card fa-lg"></i>
+                </a>
+                <a href="c">
+                    <i class="fa fa-globe fa-lg"></i>
+                </a>
+                <a href="d">
+                    <i class="fa fa-question-circle fa-lg"></i>
+                </a>
+                <a href="e">
+                    <i class="fa fa-arrow-down fa-lg"></i>
+                </a>
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </header>
+    <div class="row">
+        <div class="column side">
+            <div class="avatar">
+                <img src="img_avatar6.png" style="width:30px">
+                <p>Mariam Shamatava</p>
+            </div>
+
+            <ul class="first">
+
+                <li>
+                    <a href="bn">
+                        <i class="fa fa-file fa-lg"></i>News Feed</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="glyphicon glyphicon-envelope "></i>Messenger</li>
+                </a>
+                <p>Explore</p>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">event</i>Events</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">pages</i>Pages</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">group</i>Groups</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">search</i>On this day</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">face</i>Friend lists</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">perm_media</i>Pages Feed</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">photos</i>Photos</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">games</i>Games</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">mood</i>offers</li>
+                </a>
+                <li>
+                    <a href="bn">
+                        <i class="material-icons">movie</i>Live video</li>
+                </a>
+
+
+
+            </ul>
+            <div class="m">
+                <ul>
+                        <a href="bn"><li>Add</li></a>
+                            <a href="bn"><li>Page</li></a>
+                                <a href="bn"><li>Group</li></a>
+                                    <a href="bn"><li>Event</li></a>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="column middle">
+            <div class="mid">
+                <img src="img_avatar6.png" style="width:30px">
+                <input type="text" placeholder="What's on your mind Mariam?">
+            </div>
+
+            <div>
+                <i class="material-icons" style="font-size:36px">add_a_photo</i>
+            </div>
+            <div class="lasha">
+
+
+                <h4>
+                    <img src="l.jpg" style="width:30px">Lasha Kakushadze </h4>
+                <h6>changed profile picture</h6>
+                <p>Today at 6:20pm</p>
+            </div>
+            <img src="l.jpg" style="width:350px">
+            <div class="sms">
+            <ul class="chat">
+                    <li class="him">რას შვები?</li>
+                    <li class="me">რავი შენ? როგორ ხარ ?</li>
+                    <li class="him">კარგად შენ?</li>
+                    <li class="me">მეც</li>
+                    
+                   </ul>
+                </div>
+
+        </div>
+
+        <div class="column side">
+            <div class="mes">
+                <p>CONTACTS</p>
+                
+                <li>
+                        <div class="circle"></div><a href="#irakli">Irakli Beradze</a>
+                </li>
+                
+                <li>
+                        <div class="circle"></div> <a href="#alla">Alla kukhianidze</a>
+                </li>
+                
+                <li>
+                        <div class="circle"></div><a href="#saba">Saba Mamasakhlisi</a>
+                </li>
+               
+                <li>
+                        <div class="circle"></div><a href="#dakuebi">დაქუები</a>
+                </li>
+                
+                <li>
+                        <div class="circle"></div><a href="la">Lasha kakushadze</a>
+                </li>
+                
+                <li>
+                        <div class="circle"></div> <a href="#m">Ana Shamatava</a>
+                </li>
+                
+                <li>
+                        <div class="circle"></div> <a href="#m">Mariam Gabunia</a>
+                </li>
+                
+                <li>
+                        <div class="circle"></div> <a href="Mariami">Mariam Sakandelidze</a>
+                </li>
+                
+                <li>
+                   
+                <div class="circle"></div> <a href="#Tatia">Tatia qiliptari</a>
+                </li>
+                
+                <li>
+                   
+                <div class="circle"></div> <a href="gv">Gvantsa andriadze</a>
+                </li>
+                
+                <li>
+                  
+                <div class="circle"></div>  <a href="nino">Nino nanitashvili</a>
+                </li>
+                
+                <li>
+                  
+                <div class="circle"></div>  <a href="#n">Nino keburia</a>
+                </li>
+                
+                <li>
+                    
+                <div class="circle"></div><a href="#lik">lika kokaia</a>
+                </li>
+                
+                <li>
+                    
+                <div class="circle"></div><a href="nia">Nia Shalikiani</a>
+                </li>
+
+
+            </div>
+            <div class="box"></div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
