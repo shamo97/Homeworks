@@ -3,7 +3,7 @@ body {
 }
 #board {
     position: absolute;
-    margin-left: 510px;
+    margin-left: 37%;
     margin-top: -340px;
     width: 150px;
     height: 30px;
@@ -16,7 +16,7 @@ body {
 }
 #apple {
     position: absolute;
-    margin-left: 510px;
+    margin-left: 37%;
     margin-top: -250px;
     width: 150px;
     height: 30px;
@@ -31,7 +31,7 @@ body {
     width: 250px;
     height: 40px;
     position: absolute;
-    margin-left: 550px;
+    margin-left: 40%;
     margin-top: 5px;
     color: black;
     background: rgb(33, 105, 33);
@@ -44,7 +44,7 @@ body {
     position: absolute;
     margin-left: 100px;
     margin-top:50px;
-    margin-left: 550px;
+    margin-left: 40%;
     color: black;
     background: rgb(33, 105, 33);
     font-size: 20px;
@@ -54,7 +54,7 @@ body {
 
 #snakes {
     position: absolute;
-    margin-left: 510px;
+    margin-left: 37%;
     margin-top: -160px;
     width: 150px;
     height: 30px;
@@ -68,7 +68,7 @@ body {
 
 #speeds{
     position: absolute;
-    margin-left: 510px;
+    margin-left: 37%;
     margin-top: -70px;
     width: 150px;
     height: 30px;
@@ -126,3 +126,4 @@ body {
     margin-left: 450px;
 
 }
+
