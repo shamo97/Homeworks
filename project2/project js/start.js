@@ -268,10 +268,24 @@ window.onload = function () {
 
         image.onload = function () {
             canva.ctx.drawImage(image, 10, 0, 250, 60);
-            canva.ctx.drawImage(image1, 10, 100, 300, 80);
-            canva.ctx.drawImage(image2, 0, 180, 300, 80);
-            canva.ctx.drawImage(image3, 10, 290, 250, 50);
+                     
         }
+        image.src = "images/board.png";
+        image1.onload=function() {
+            canva.ctx.drawImage(image1, 10, 100, 300, 80);
+
+        }
+        image1.src = "images/apple.png";
+        image2.onload=function() {
+            canva.ctx.drawImage(image2, 0, 180, 300, 80);
+
+        }
+        image2.src = "images/snakel.png";
+        image3.onload=function() {
+            canva.ctx.drawImage(image3, 10, 290, 250, 50);
+
+        }
+        image3.src = "images/game speed.png";
 
         image.src = "images/board.png";
         image1.src = "images/apple.png";
