@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(23, 110, 23)
+}
+#board {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -340px;
+    width: 150px;
+    height: 30px;
+    color:black;
+    background: rgb(33, 105, 33);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+
+}
+#apple {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -250px;
+    width: 150px;
+    height: 30px;
+    color:black;
+    background: rgb(33, 105, 33);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+
+}
+#start {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5px;
+    color: black;
+    background: rgb(33, 105, 33);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#resume {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top:50px;
+    margin-left: 40%;
+    color: black;
+    background: rgb(33, 105, 33);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+#snakes {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -160px;
+    width: 150px;
+    height: 30px;
+    color:black;
+    background: rgb(33, 105, 33);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+
+}
+
+#speeds{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -70px;
+    width: 150px;
+    height: 30px;
+    color:black;
+    background: rgb(33, 105, 33);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+#scoreText {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -470px;
+    
+    height: 30px;
+    color:black;
+   
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+#container {
+    font-size: 130px;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-left: 27%;
+    
+
+}
+#container p {
+    margin-bottom: -140px;
+}
+#again {
+    width: 400px;
+    height: 60px;
+    background: rgb(15, 97, 15);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+#exit {
+    width: 400px;
+    height: 60px;
+    background: rgb(15, 97, 15);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    margin-left: 450px;
+
+}
